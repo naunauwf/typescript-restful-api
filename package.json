@@ -1,0 +1,37 @@
+{
+  "name": "typescript-restful-api",
+  "version": "1.0.0",
+  "description": "learn typescript-restful-api",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "jest": "jest --runInBand",
+    "build": "tsc",
+    "start": "node dist/main.js"
+  },
+  "author": "ioo",
+  "license": "ISC",
+  "dependencies": {
+    "@prisma/client": "^6.15.0",
+    "bcrypt": "^6.0.0",
+    "express": "^5.1.0",
+    "uuid": "^11.1.0",
+    "winston": "^3.17.0",
+    "zod": "^4.1.5"
+  },
+  "devDependencies": {
+    "@babel/preset-env": "^7.28.3",
+    "@babel/preset-typescript": "^7.27.1",
+    "@jest/globals": "^30.1.2",
+    "@types/bcrypt": "^6.0.0",
+    "@types/express": "^5.0.3",
+    "@types/jest": "^30.0.0",
+    "@types/supertest": "^6.0.3",
+    "@types/uuid": "^10.0.0",
+    "babel-jest": "^30.1.2",
+    "prisma": "^6.15.0",
+    "supertest": "^7.1.4",
+    "ts-jest": "^29.4.1",
+    "typescript": "^5.9.2"
+  }
+}
