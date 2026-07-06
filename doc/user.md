@@ -8,9 +8,9 @@ Request Body :
 
 ```json
 {
-  "username" : "khannedy",
+  "username" : "naunauw",
   "password" : "rahasia",
-  "name" : "Eko Khannedy"
+  "name" : "naw"
 }
 ```
 
@@ -19,8 +19,8 @@ Response Body (Success) :
 ```json
 {
   "data" : {
-    "username" : "khannedy",
-    "name" : "Eko Khannedy"
+    "username" : "naunauw",
+    "name" : "naw"
   }
 }
 ```
@@ -41,7 +41,7 @@ Request Body :
 
 ```json
 {
-  "username" : "khannedy",
+  "username" : "naunauw",
   "password" : "rahasia"
 }
 ```
@@ -51,8 +51,8 @@ Response Body (Success) :
 ```json
 {
   "data" : {
-    "username" : "khannedy",
-    "name" : "Eko Khannedy",
+    "username" : "naunauw",
+    "name" : "naw",
     "token" : "uuid"
   }
 }
@@ -71,6 +71,7 @@ Response Body (Failed) :
 Endpoint : GET /api/users/current
 
 Request Header :
+
 - X-API-TOKEN : token
 
 Response Body (Success) :
@@ -78,8 +79,8 @@ Response Body (Success) :
 ```json
 {
   "data" : {
-    "username" : "khannedy",
-    "name" : "Eko Khannedy"
+    "username" : "naunauw",
+    "name" : "naw"
   }
 }
 ```
@@ -97,6 +98,7 @@ Response Body (Failed) :
 Endpoint : PATCH /api/users/current
 
 Request Header :
+
 - X-API-TOKEN : token
 
 Request Body :
@@ -104,7 +106,7 @@ Request Body :
 ```json
 {
   "password" : "rahasia", // tidak wajib
-  "name" : "Eko Khannedy" // tidak wajib
+  "name" : "naw" // tidak wajib
 }
 ```
 
@@ -113,8 +115,8 @@ Response Body (Success) :
 ```json
 {
   "data" : {
-    "username" : "khannedy",
-    "name" : "Eko Khannedy"
+    "username" : "naunauw",
+    "name" : "naw"
   }
 }
 ```
@@ -132,6 +134,7 @@ Response Body (Failed) :
 Endpoint : DELETE /api/users/current
 
 Request Header :
+
 - X-API-TOKEN : token
 
 Response Body (Success) :

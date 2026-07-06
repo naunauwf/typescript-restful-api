@@ -5,6 +5,7 @@
 Endpoint : POST /api/contacts/:idContact/addresses
 
 Request Header :
+
 - X-API-TOKEN : token
 
 Request Body :
@@ -47,6 +48,7 @@ Response Body (Failed) :
 Endpoint : GET /api/contacts/:idContact/addresses/:idAddress
 
 Request Header :
+
 - X-API-TOKEN : token
 
 Response Body (Success) :
@@ -77,6 +79,7 @@ Response Body (Failed) :
 Endpoint : PUT /api/contacts/:idContact/addresses/:idAddress
 
 Request Header :
+
 - X-API-TOKEN : token
 
 Request Body :
@@ -119,6 +122,7 @@ Response Body (Failed) :
 Endpoint : DELETE /api/contacts/:idContact/addresses/:idAddress
 
 Request Header :
+
 - X-API-TOKEN : token
 
 Response Body (Success) :
@@ -142,6 +146,7 @@ Response Body (Failed) :
 Endpoint : GET /api/contacts/:idContact/addresses
 
 Request Header :
+
 - X-API-TOKEN : token
 
 Response Body (Success) :
